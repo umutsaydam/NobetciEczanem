@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="15dp"
+    app:contentPadding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/ic_pharmacy" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtPharmacyName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:letterSpacing="0.04"
+                    android:text="Alper Yüce Eczanesi"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtPharmacyDist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Çankaya"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/txtPharmacyAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Angora Cad. No:154/Beysukent"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/txtPharmacyPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0312 236 36 96"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="5dp"
+                android:drawableLeft="@drawable/ic_call"
+                android:ems="9"
+                android:padding="12dp"
+                android:paddingStart="50dp"
+                android:text="Ara"
+                android:textAlignment="textStart"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnShowLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="15dp"
+                android:textAlignment="textStart"
+                android:drawableLeft="@drawable/ic_location"
+                android:ems="10"
+                android:padding="12dp"
+                android:text="Konumu Göster"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

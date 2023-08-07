@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NobetciEczanem</string>
+    <string name="hizli_arama">Hızlı Arama</string>
+    <string name="bul">Bul</string>
+    <string name="nobetci_eczane_bul">Nöbetçi Eczane Bul</string>
+    <string name="ilce_opsiyonel">İlçe (Opsiyonel)</string>
+    <string name="nobetci_eczaneler">Nöbetçi Eczaneler</string>
+</resources>
